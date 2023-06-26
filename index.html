@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<style>
+body{
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/9a/c9/46/photo5jpg.jpg?w=1400&h=-1&s=1");
+    color: orangered;
+}
+h1{
+    color:rgb(217, 243, 70);
+    background-color:rgb(94, 103, 238);
+    margin-left: 20%;
+    margin-right: 35%;
+ }
+img{
+    margin-left: 350px;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  backdrop-filter: grayscale(100%);
+  color: yellow;
+  font-size: large;
+
+}
+table {
+  font-family: arial, sans-serif;
+  table-layout: auto;
+  border-collapse: collapse;
+  width: 100%;
+  backdrop-filter: grayscale(75%);
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+ul.a{
+    list-style-type: square;
+    border: 2px solid yellow;
+    backdrop-filter: grayscale(75%);
+}
+ul.b{
+    color: blue;
+}
+form{
+    border: 2px solid blue;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+</style>
+
+
+<html>
+    <head>
+        <title> Bart's vakantie</title>
+    </head>
+<body>
+
+<h1>Welkom op mijn vakantie site</h1>
+<img src="https://all-populations.com/en/images/flag_of_sweden.png" width="160" height="100" alt="Swedish flag">
+
+<p>Mijn vakantie dit jaar gaat naar zweden!
+We gaan daar kanoen en kamperen.<br>
+Op dit moment zijn we bezig met de voorbereiding.<br>
+</p>
+<div></div>
+<h2>Reisoverzicht</h2>
+<table>
+    <tr>
+        <th>Land</th>
+        <th>Betaalmiddel</th>
+        <th>Kilometers te rijden</th>
+    </tr>
+    <tr>
+        <td>Duitsland</td>
+        <td>Euro</td>
+        <td>168</td>
+    </tr>
+    <tr>
+        <td>Denemarken</td>
+        <td>Deense Kroon</td>
+        <td>588</td>
+    </tr>
+    <tr>
+        <td>Zweden</td>
+        <td>Zweedse Kroon</td>
+        <td>781</td>
+    </tr>
+</table>
+
+<h3>Paklijst</h3>
+<ul class="a">
+    <li>Documenten</li>
+    <ul>
+        <li>Paspoort</li>
+        <li>Rijbewijs</li>
+        <li>Betaalbewijs</li>
+    </ul>
+    <li>Kleding</li>
+    <ul class="b">
+        <li>T-shirts x7</li>
+        <li>Sportshit</li>
+        <li>Langebroek 1x</li>
+        <li>Kortebroek 2x</li>
+        <li>Onderbroek x7</li>
+    </ul>
+
+
+</ul>
+
+<p>
+    Wil je als eerste updates ontvangen van onze reis?<br>
+    Schrijf je hieronder dan in voor onze Mailinglist.
+
+</p>
+
+
+<nav></nav>
+<h2>Mailinglist</h2>
+
+<form action="/action_page.php">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="email">email adress:</label>
+    <input type="text" id="email" name="email"><br><br>
+    <input type="submit" value="submit">
+</form>
+
+
+
+</body>
+</html>
